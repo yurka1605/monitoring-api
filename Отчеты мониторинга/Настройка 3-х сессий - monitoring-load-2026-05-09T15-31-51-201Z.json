@@ -1,0 +1,523 @@
+{
+  "formatVersion": 1,
+  "meta": {
+    "exportedAt": "2026-05-09T15:31:51.201Z",
+    "pollIntervalSeconds": 3,
+    "testDurationMs": 170123,
+    "testDurationDisplay": "2:50",
+    "memoryTotalMb": 32481,
+    "diskTotalGb": 931.37
+  },
+  "samples": [
+    {
+      "sampleTimeIso": "2026-05-09T15:29:00.375Z",
+      "timeLabelLocal": "18:29:00",
+      "cpuPercent": 5.5,
+      "memoryAvailableMb": 29257,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:03.754Z",
+      "timeLabelLocal": "18:29:03",
+      "cpuPercent": 3.4,
+      "memoryAvailableMb": 29257,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:06.396Z",
+      "timeLabelLocal": "18:29:06",
+      "cpuPercent": 1.8,
+      "memoryAvailableMb": 29259,
+      "memoryUsedMb": 3222,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:09.744Z",
+      "timeLabelLocal": "18:29:09",
+      "cpuPercent": 12,
+      "memoryAvailableMb": 29258,
+      "memoryUsedMb": 3223,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:16.400Z",
+      "timeLabelLocal": "18:29:16",
+      "cpuPercent": 4.2,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:18.685Z",
+      "timeLabelLocal": "18:29:18",
+      "cpuPercent": 14.3,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:21.378Z",
+      "timeLabelLocal": "18:29:21",
+      "cpuPercent": 9.4,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:24.674Z",
+      "timeLabelLocal": "18:29:24",
+      "cpuPercent": 12.7,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:27.391Z",
+      "timeLabelLocal": "18:29:27",
+      "cpuPercent": 13.2,
+      "memoryAvailableMb": 29259,
+      "memoryUsedMb": 3222,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:30.687Z",
+      "timeLabelLocal": "18:29:30",
+      "cpuPercent": 14.3,
+      "memoryAvailableMb": 29257,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:33.377Z",
+      "timeLabelLocal": "18:29:33",
+      "cpuPercent": 7.5,
+      "memoryAvailableMb": 29257,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:36.681Z",
+      "timeLabelLocal": "18:29:36",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29257,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.32,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:43.060Z",
+      "timeLabelLocal": "18:29:43",
+      "cpuPercent": 14.8,
+      "memoryAvailableMb": 29257,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:45.383Z",
+      "timeLabelLocal": "18:29:45",
+      "cpuPercent": 3.9,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:49.684Z",
+      "timeLabelLocal": "18:29:49",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:51.388Z",
+      "timeLabelLocal": "18:29:51",
+      "cpuPercent": 12.1,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:29:57.387Z",
+      "timeLabelLocal": "18:29:57",
+      "cpuPercent": 13,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:00.681Z",
+      "timeLabelLocal": "18:30:00",
+      "cpuPercent": 4.1,
+      "memoryAvailableMb": 29255,
+      "memoryUsedMb": 3226,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:03.386Z",
+      "timeLabelLocal": "18:30:03",
+      "cpuPercent": 14.3,
+      "memoryAvailableMb": 29255,
+      "memoryUsedMb": 3226,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:06.676Z",
+      "timeLabelLocal": "18:30:06",
+      "cpuPercent": 13,
+      "memoryAvailableMb": 29253,
+      "memoryUsedMb": 3228,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:09.370Z",
+      "timeLabelLocal": "18:30:09",
+      "cpuPercent": 12.5,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:12.682Z",
+      "timeLabelLocal": "18:30:12",
+      "cpuPercent": 12.5,
+      "memoryAvailableMb": 29254,
+      "memoryUsedMb": 3227,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:15.379Z",
+      "timeLabelLocal": "18:30:15",
+      "cpuPercent": 1.8,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:19.069Z",
+      "timeLabelLocal": "18:30:19",
+      "cpuPercent": 12.5,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:22.399Z",
+      "timeLabelLocal": "18:30:22",
+      "cpuPercent": 17,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:24.691Z",
+      "timeLabelLocal": "18:30:24",
+      "cpuPercent": 12.7,
+      "memoryAvailableMb": 29255,
+      "memoryUsedMb": 3226,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:27.747Z",
+      "timeLabelLocal": "18:30:27",
+      "cpuPercent": 20.4,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:30.679Z",
+      "timeLabelLocal": "18:30:30",
+      "cpuPercent": 16,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:33.384Z",
+      "timeLabelLocal": "18:30:33",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29255,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:36.683Z",
+      "timeLabelLocal": "18:30:36",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:39.374Z",
+      "timeLabelLocal": "18:30:39",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29254,
+      "memoryUsedMb": 3227,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:42.696Z",
+      "timeLabelLocal": "18:30:42",
+      "cpuPercent": 6.5,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:45.384Z",
+      "timeLabelLocal": "18:30:45",
+      "cpuPercent": 2,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:48.720Z",
+      "timeLabelLocal": "18:30:48",
+      "cpuPercent": 13.5,
+      "memoryAvailableMb": 29252,
+      "memoryUsedMb": 3229,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:51.381Z",
+      "timeLabelLocal": "18:30:51",
+      "cpuPercent": 3.6,
+      "memoryAvailableMb": 29251,
+      "memoryUsedMb": 3230,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:54.689Z",
+      "timeLabelLocal": "18:30:54",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29251,
+      "memoryUsedMb": 3230,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:30:57.385Z",
+      "timeLabelLocal": "18:30:57",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29251,
+      "memoryUsedMb": 3230,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:00.676Z",
+      "timeLabelLocal": "18:31:00",
+      "cpuPercent": 9.6,
+      "memoryAvailableMb": 29251,
+      "memoryUsedMb": 3230,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:03.393Z",
+      "timeLabelLocal": "18:31:03",
+      "cpuPercent": 18.2,
+      "memoryAvailableMb": 29249,
+      "memoryUsedMb": 3232,
+      "memoryPercent": 10,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:06.691Z",
+      "timeLabelLocal": "18:31:06",
+      "cpuPercent": 10.9,
+      "memoryAvailableMb": 29248,
+      "memoryUsedMb": 3233,
+      "memoryPercent": 10,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:09.389Z",
+      "timeLabelLocal": "18:31:09",
+      "cpuPercent": 4.1,
+      "memoryAvailableMb": 29246,
+      "memoryUsedMb": 3235,
+      "memoryPercent": 10,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:15.393Z",
+      "timeLabelLocal": "18:31:15",
+      "cpuPercent": 15.4,
+      "memoryAvailableMb": 29246,
+      "memoryUsedMb": 3234,
+      "memoryPercent": 10,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:18.687Z",
+      "timeLabelLocal": "18:31:18",
+      "cpuPercent": 15.4,
+      "memoryAvailableMb": 29249,
+      "memoryUsedMb": 3232,
+      "memoryPercent": 10,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:21.370Z",
+      "timeLabelLocal": "18:31:21",
+      "cpuPercent": 12.5,
+      "memoryAvailableMb": 29246,
+      "memoryUsedMb": 3235,
+      "memoryPercent": 10,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:24.687Z",
+      "timeLabelLocal": "18:31:24",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29259,
+      "memoryUsedMb": 3221,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:27.392Z",
+      "timeLabelLocal": "18:31:27",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29254,
+      "memoryUsedMb": 3227,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:30.697Z",
+      "timeLabelLocal": "18:31:30",
+      "cpuPercent": 4.5,
+      "memoryAvailableMb": 29254,
+      "memoryUsedMb": 3227,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:33.396Z",
+      "timeLabelLocal": "18:31:33",
+      "cpuPercent": 2,
+      "memoryAvailableMb": 29254,
+      "memoryUsedMb": 3227,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:39.388Z",
+      "timeLabelLocal": "18:31:39",
+      "cpuPercent": 5.5,
+      "memoryAvailableMb": 29256,
+      "memoryUsedMb": 3225,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:45.388Z",
+      "timeLabelLocal": "18:31:45",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29257,
+      "memoryUsedMb": 3224,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    },
+    {
+      "sampleTimeIso": "2026-05-09T15:31:48.694Z",
+      "timeLabelLocal": "18:31:48",
+      "cpuPercent": 0,
+      "memoryAvailableMb": 29255,
+      "memoryUsedMb": 3226,
+      "memoryPercent": 9.9,
+      "diskFreeGb": 311.31,
+      "diskPercent": 66.6
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+<div class="load-page">
+  <header class="toolbar">
+    <div class="toolbar__title">
+      <h1>Мониторинг нагрузки процессинга</h1>
+      @if (importedView() && importedFileLabel(); as fileName) {
+        <p class="imported-file" [attr.title]="fileName">
+          <span class="imported-file__prefix">Загруженный файл:</span>
+          <span class="imported-file__name">{{ fileName }}</span>
+        </p>
+      }
+      <p class="hint">
+        @if (importedView()) {
+          Просмотр сохранённого теста из JSON. Нажмите «Новый опрос», чтобы очистить экран и снова собирать данные с сервера.
+        } @else {
+          Опрос каждые 3 с после «Старт». После «Стоп» сохраняйте результаты в JSON и при необходимости подгружайте файл «Загрузить результаты…».
+        }
+      </p>
+    </div>
+
+    <div class="toolbar__actions">
+      <input
+        #resultsFileInput
+        type="file"
+        accept="application/json,.json"
+        hidden
+        (change)="onImportFileSelected($event)"
+      />
+      <button
+        type="button"
+        class="btn"
+        [disabled]="isRunning()"
+        (click)="resultsFileInput.click()"
+      >
+        Загрузить результаты…
+      </button>
+
+      @if (!importedView()) {
+        <button type="button" class="btn primary" [disabled]="isRunning()" (click)="start()">Старт</button>
+        <button type="button" class="btn" [disabled]="!isRunning()" (click)="stop()">Стоп</button>
+      } @else {
+        <button type="button" class="btn primary" (click)="prepareNewLiveTest()">Новый опрос</button>
+      }
+
+      <button type="button" class="btn accent" [disabled]="!exportReady()" (click)="downloadResults()">
+        Скачать результат
+      </button>
+    </div>
+
+    @if (memoryTotalMb() !== null && diskTotalGb() !== null) {
+      <dl class="totals" aria-label="Сводка по ресурсам">
+        <div>
+          <dt>Всего памяти</dt>
+          <dd>{{ memoryTotalMb() | number: '1.0-0' }} МБ</dd>
+        </div>
+        <div>
+          <dt>Всего диска</dt>
+          <dd>{{ diskTotalGb() | number: '1.0-2' }} ГБ</dd>
+        </div>
+        @if (lastSampleAt(); as last) {
+          <div>
+            <dt>Последний снимок</dt>
+            <dd>{{ last | date: 'mediumTime' }}</dd>
+          </div>
+        }
+        <div>
+          <dt>Продолжительность тестирования</dt>
+          <dd>{{ formatTestDuration(testDurationMs()) }}</dd>
+        </div>
+      </dl>
+    }
+  </header>
+
+  @if (error(); as err) {
+    <p class="banner error" role="alert">{{ err }}</p>
+  }
+
+  <section class="charts" aria-label="Графики метрик">
+    <article class="chart-card">
+      <h2 class="chart-card__title">cpu_percent</h2>
+      <div class="chart-card__canvas">
+        <canvas baseChart type="line" [data]="cpuChartData()" [options]="lineOptions"></canvas>
+      </div>
+    </article>
+
+    <article class="chart-card">
+      <h2 class="chart-card__title">memory_available_mb</h2>
+      <div class="chart-card__canvas">
+        <canvas
+          baseChart
+          type="line"
+          [data]="memoryAvailableChartData()"
+          [options]="lineOptions"
+        ></canvas>
+      </div>
+    </article>
+
+    <article class="chart-card">
+      <h2 class="chart-card__title">memory_used_mb</h2>
+      <div class="chart-card__canvas">
+        <canvas baseChart type="line" [data]="memoryUsedChartData()" [options]="lineOptions"></canvas>
+      </div>
+    </article>
+
+    <article class="chart-card">
+      <h2 class="chart-card__title">memory_percent</h2>
+      <div class="chart-card__canvas">
+        <canvas
+          baseChart
+          type="line"
+          [data]="memoryPercentChartData()"
+          [options]="lineOptions"
+        ></canvas>
+      </div>
+    </article>
+
+    <article class="chart-card">
+      <h2 class="chart-card__title">disk_free_gb</h2>
+      <div class="chart-card__canvas">
+        <canvas baseChart type="line" [data]="diskFreeChartData()" [options]="lineOptions"></canvas>
+      </div>
+    </article>
+
+    <article class="chart-card">
+      <h2 class="chart-card__title">disk_percent</h2>
+      <div class="chart-card__canvas">
+        <canvas baseChart type="line" [data]="diskPercentChartData()" [options]="lineOptions"></canvas>
+      </div>
+    </article>
+  </section>
+</div>
